@@ -1,4 +1,4 @@
-// El meotod factory function es metodo que crea una funcon
+// El meotod factory function es metodo que crea una funcion
 // const { v4 } = require('uuid')
 // const { getAge } = require('../plugins/get_Age')
 // const { getUuid } = require('../plugins/get_uuid')

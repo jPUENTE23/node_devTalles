@@ -8,7 +8,7 @@ import winston from "winston"
 const moment = require('moment-timezone')
 const { combine, json, timestamp } = winston.format
 
-const logger = winston.createLogger({
+export const logger = winston.createLogger({
   level: 'info',
   format: combine(
     timestamp({

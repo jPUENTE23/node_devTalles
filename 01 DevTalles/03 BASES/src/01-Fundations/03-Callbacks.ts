@@ -30,12 +30,12 @@ export const getUserById = (id: number, callback: (error?: string, usuario?:Usua
     if(!user){
 
         //Si le usurio no existe, devolveremos un error a nuestro callback
-        // setTimeout(() => {
-        //     return callback("El usuario no ha sido encontrado")
+        setTimeout(() => {
+            return callback("El usuario no ha sido encontrado")
 
-        // }, 2500);
-        // return
-        return callback("El usuario no ha sido encontrado")
+        }, 2500);
+        return
+        // return callback("El usuario no ha sido encontrado")
 
     }
 

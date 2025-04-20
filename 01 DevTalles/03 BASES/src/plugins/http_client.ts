@@ -1,6 +1,7 @@
 
 //const axios = require('axios')
 import axios from "axios"
+import { error } from "console";
 
 
 export const httpRequest = {
@@ -20,6 +21,15 @@ export const httpRequest = {
         console.log("Petiion desde axios")
 
         return await data;
+    },
+    post: async(url: string) => {
+        throw new Error("Funcion no implementada")
+    },
+    put: async(url: string, id: number) =>{
+        throw new Error("Funcion no implementada")
+    },
+    del: async(url:string, id: number)=> {
+        throw new Error("Funcion no implementada")
     }
 }
 

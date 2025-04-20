@@ -19,8 +19,9 @@ describe('Callbacks', () => {
             expect(user).toBeUndefined()
 
 
-            done() /* Una vez que nuestra callback termine de ejecurse correctamente
-            nuestro nest indicare si se ejecuto o no correctamente
+            done() 
+            /* Una vez que nuestra callback termine de ejecurse correctamente
+            nuestro test indicara si se ejecuto o no correctamente
             */
         })
 
@@ -29,7 +30,7 @@ describe('Callbacks', () => {
         
         Si lo colocamos dentro de nuestro callback, el test saltara por completamente el error, y no indicare que 
         se ha ejeutado correctamente*/
-        // throw new Error("El usuario no ha sido encontrado")
+        //throw new Error("El usuario no ha sido encontrado")
 
 
     })
